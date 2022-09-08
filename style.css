@@ -1,0 +1,39 @@
+#bg {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1659478039681-0ebbf73c7fb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+    filter: blur(80px);
+    transition: all .5s ease;
+    background-position: center;
+    background-size: cover;
+}
+
+.form{
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+label{
+    display: block;
+}
+
+input{
+    width: 80%;
+}
+
+button{
+    width: 100%;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
